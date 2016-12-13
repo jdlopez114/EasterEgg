@@ -8,11 +8,11 @@ import android.widget.ImageView;
 public class BannerViewHolder extends RecyclerView.ViewHolder {
 
     ImageView imageView;
-    View cardView;
+    CardView cardView;
 
     BannerViewHolder(View itemView) {
         super(itemView);
-        cardView = itemView.findViewById(R.id.card_view);
+        cardView = (CardView) itemView.findViewById(R.id.card_view);
         imageView = (ImageView) itemView.findViewById(R.id.banner_view);
     }
 }
