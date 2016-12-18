@@ -29,9 +29,9 @@ public class MyNotificationService extends IntentService {
         int NOTIFICATION_ID = 555; // Setting a notification ID allows you to update the notification later on.
 
         NotificationCompat.Builder builder = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
-                .setSmallIcon(R.drawable.banner_stark)
-                .setContentTitle("ALARM SERVICE")
-                .setContentText("You haven't opened this app in 15 mins.");
+                .setSmallIcon(R.drawable.sigil_stark)
+                .setContentTitle("NEW HOUSE ALERT")
+                .setContentText("New Banner available to collect!");
 
         Intent resultIntent = new Intent(this, DataBaseActivity.class);
 
