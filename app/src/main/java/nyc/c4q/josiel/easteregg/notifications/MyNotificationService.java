@@ -29,7 +29,7 @@ public class MyNotificationService extends IntentService {
         int NOTIFICATION_ID = 555; // Setting a notification ID allows you to update the notification later on.
 
         NotificationCompat.Builder builder = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
-                .setSmallIcon(R.drawable.sigil_stark)
+                .setSmallIcon(R.drawable.thrones)
                 .setContentTitle("NEW HOUSE ALERT")
                 .setContentText("New Banner available to collect!");
 
